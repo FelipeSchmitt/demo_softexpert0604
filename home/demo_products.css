@@ -147,11 +147,11 @@ body{
         background-color: #dd3333;
         color: white;
         padding: 0 15px;
-        font-size: 16px;
+        font-size: 22px;
         line-height: 45px;
         text-transform: none;
         box-shadow: none;
-        border: 1px solid #707070;
+        border: none;
         border-radius: 6px;
         margin-bottom: 60px;
         transition: 0.25s;
@@ -159,15 +159,10 @@ body{
     .btn-header1{
         width: 200px;
         height: 40px;
-        line-height: 25px !important;
+        line-height: 35px !important;
     }
     .btn-header1 span{
-        font-size: 12px;
-    }
-    .btn-header1:hover {
-        cursor: pointer;
-        box-shadow: 0 2px 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%);
-        transition: 0.25s;
+        font-size: 13px;
     }
     .content_grid_template .slides_of_softexpert_bpm #slidebox{
         width: 250px;
@@ -220,18 +215,18 @@ body{
         background-color: #dd3333;
         color: white;
         padding: 0 15px;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 45px;
         text-transform: none;
         box-shadow: none;
-        border: 1px solid #707070;
+        border: none;
         border-radius: 6px;
         margin-bottom: 60px;
         transition: 0.25s;
     }
     .btn-header1{
         width: 200px;
-        height: 40px;
+        height: 35px;
         line-height: 25px !important;
     }
     .btn-header1 span{
@@ -300,20 +295,25 @@ body{
         line-height: 45px;
         text-transform: none;
         box-shadow: none;
-        border: 1px solid #707070;
-        border-radius: 6px;
+        border: none;
+        border-radius: 2px !important;
         margin-bottom: 60px;
         transition: 0.25s;
     }
     .btn-header1{
-        width: 200px;
-        height: 40px;
-        line-height: 25px !important;
+        width: 160px;
+        height: 32px;
+        line-height: 27px !important;
     }
     .btn-header1 span{
-        font-size: 12px;
+        font-size:10px;
     }
+    .icone-solucao-solicite-apresentacao::before{
+        margin-top: 5px !important;
 
+
+    }
+    
     .content_grid_template .slides_of_softexpert_bpm {
         width: 80%;
         margin-left: auto;
@@ -346,13 +346,19 @@ body{
     .content_grid_template .slides_of_softexpert_bpm {
         margin-left: 0;
         padding-right: 25vh;
-}
+    }
     .content_grid_template #solution_title{
         font-size: 11px;
     }
     .content_grid_template #solution_description p{
         font-size: 13.5px;
     }
+    .btn-header1{
+        width: 160px;
+        height: 32px;
+        line-height: 30px !important;
+    }
+}
 @media screen and (max-width: 1024px) {
     body{
         overflow: scroll;
@@ -478,7 +484,7 @@ body{
 }
 }
 
-}
+
 
 
 .btn-header1 {
@@ -487,18 +493,17 @@ body{
     background-color: #dd3333;
     color: white;
 	padding: 0 15px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 45px;
     text-transform: none;
     box-shadow: none;
-    border: 1px solid #707070;
+    border: none;
     border-radius: 6px;
     margin-bottom: 60px;
     transition: 0.25s;
 }
 .btn-header1:hover {
     cursor: pointer;
-    box-shadow: 0 2px 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%);
     transition: 0.25s;
 }
 
