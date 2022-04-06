@@ -128,13 +128,18 @@ body{
         overflow-y: scroll;
         overflow-x: hidden;
     }
-    .content_grid_template #demo_softexpert_img img{
-        margin-top: 60px;
-        width: 60%;
+    .content_grid_template #solution_title{
+        font-size: 13px
     }
-    
+    .content_grid_template #demo_softexpert_img img{
+        margin-top: 10px;
+        width: 70%;
+    }
+    .content_grid_template #solution_description{
+        width: 85%;
+    }
     .content_grid_template #solution_description p{
-        font-size: 16px;
+        font-size: 16.5px;
     }
     .btn-header1 {
         display: block;
@@ -187,14 +192,17 @@ body{
 }
 
 @media screen and (max-width: 1440px) {
+    .content_grid_template #solution_title{
+        font-size: 12px;
+    }
     .content_grid_template #solution_description{
         display: block;
         margin: auto;
-        width: 75%;
+        width: 85%;
     }
     .content_grid_template #demo_softexpert_img img{
-        width: 60%;
-        margin-top: 60px;
+        width: 75%;
+        margin-top: 10px;
     }
     .content_grid_template #solution_description p{
         font-size:16px;
@@ -263,17 +271,17 @@ body{
     .content_grid_template #solution_description{
         display: block;
         margin: auto;
-        width: 80%;
+        width: 90%;
     }
     .content_grid_template #solution_title{
-        font-size: 13px;
+        font-size: 12px;
     }
     .content_grid_template #demo_softexpert_img img{
-        width: 50%;
+        width: 65%;
         margin-top: 10px;
     }
     .content_grid_template #solution_description p{
-        font-size:17px;
+        font-size:15px;
     }
     .content_grid_template .slides_of_softexpert_bpm{
         display: grid;
@@ -326,7 +334,7 @@ body{
         height: 123px;
     }
     .content_grid_template .slides_of_softexpert_bpm #slidebox p{
-        font-size: 16px;
+        font-size: 15px;
         width: 215px;
 
 
@@ -339,6 +347,12 @@ body{
         margin-left: 0;
         padding-right: 25vh;
 }
+    .content_grid_template #solution_title{
+        font-size: 11px;
+    }
+    .content_grid_template #solution_description p{
+        font-size: 13.5px;
+    }
 @media screen and (max-width: 1024px) {
     body{
         overflow: scroll;
@@ -353,7 +367,7 @@ body{
         width: 65%;
     }
     .content_grid_template #solution_description p{
-        font-size: 16px;
+        font-size: 19px;
     }
     .content_grid_template .slides_of_softexpert_bpm #slidebox{
         margin-top: 5px;
@@ -371,7 +385,7 @@ body{
         height: 80%;
     }
     .content_grid_template .slides_of_softexpert_bpm #slidebox p{
-        font-size: 14px;
+        font-size: 16px;
         width: 330px;
     }
     .content_grid_template #demo_softexpert_img img{
