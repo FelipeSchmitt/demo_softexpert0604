@@ -18,8 +18,8 @@ body{
 .content_grid_template #demo_softexpert_img img{
     display: block;
     margin: auto;
-    width: 65%;
-    margin-top: 60px;
+    width: 70%;
+    margin-top: 30px;
 }
 .content_grid_template #solution_title h1{
     text-align: center;
@@ -28,7 +28,7 @@ body{
 .content_grid_template #solution_description{
     display: block;
     margin: auto;
-    width: 65%;
+    width: 80%;
 }
 .content_grid_template #solution_description p{
     color: #02559e;
