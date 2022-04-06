@@ -2,12 +2,12 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
-    overflow: auto;
+    overflow: hidden;
 }
 .content_grid_template{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 105vh;
+    height: 100vh;
 }
 
 /*** Description section of BPM ***/
